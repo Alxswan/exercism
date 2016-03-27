@@ -7,7 +7,7 @@ Bob.prototype.hey = function(input) {
     response = "Fine. Be that way!"
   }
  
-  else if (input.toUpperCase() == input) {
+  else if ((input.toUpperCase() == input) && (input.toLowerCase() != input)) {
     response = "Whoa, chill out!"
   }
    else if (input.endsWith("?")) {
